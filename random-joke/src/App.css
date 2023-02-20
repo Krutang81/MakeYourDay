@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("./images/paper.jpg");
+}
+
+.jokeapp {
+  background-color: #393e46;
+  height: 55rem;
+  width: 100rem;
+  border-radius: 5px;
+  text-align: center;
+  margin: 8rem auto 8rem auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.jokeapp h1 {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.jokeapp button {
+  font-weight: bold;
+  background-color: #fce22a;
+  color: black;
+  padding: 2.5rem 3rem 2.5rem 3rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  vertical-align: middle;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 45rem;
+  left: 45rem;
+}
+
+.jokeapp button:hover {
+  opacity: 0.9;
+}
+.jokeapp button:active {
+  margin-left: 1rem;
+  box-shadow: none;
+}
+
+p,
+h3 {
+  padding-top: 3.5rem;
+  font-size: 2.5rem;
+  height: 2rem;
+  color: whitesmoke;
+}
+
+footer {
+  margin-top: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 35%;
+  }
+}
